@@ -1,6 +1,6 @@
 # Calculator
 
-This is a basic calculator web application built using HTML, CSS, and JavaScript. It provides a user-friendly interface for performing arithmetic calculations right in the browser.
+This is a basic calculator web extension built using HTML, CSS, and JavaScript. It provides a user-friendly interface for performing arithmetic calculations right in the browser.
 
 ## Features
 
@@ -15,6 +15,8 @@ To run the calculator locally, follow these steps:
 1. Clone the repository: `git clone https://github.com/khadeerthewizard/calculator.git`
 2. Navigate to the project directory: `cd calculator`
 3. Open `index.html` in your preferred web browser.
+
+To add it as extension, clone it and add to extionsions in developer mode.
 
 ## Usage
 
