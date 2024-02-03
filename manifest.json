@@ -1,16 +1,16 @@
 {
     "manifest_version": 2,
-    "name": "Weather Extension",
-    "description": "This extension will let you know weather of your area depending upon your location",
+    "name": "Browser",
+    "description": "This extension will let you calculate",
     "version": "1",
-    "author": "Shubham Gautam",
+    "author": "Khadeer",
     "permissions": [
         "activeTab",
         "http://*.google.com/"
     ],
     "browser_action": {
         "default_popup": "index.html",
-        "default_title": "Weather App"
+        "default_title": "Calculator"
     },
     "icons": {
         "16": "imgs/logo.png",
