@@ -12,19 +12,18 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    width: 300px;
+    overflow: hidden;
 }
 
 body{
-    width: 100vw;
     margin: 0;
     height: max-content;
     background-color: #a0a0a0;
 }
 
 .main{
-    width: 300px;
-    height: 550px;
+    overflow-y: auto;
     background-color: #262626;
     border-radius: 10px;
     box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.8);
@@ -52,11 +51,6 @@ div.main input#input:focus{
     outline: none;
 }
 
-/*input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}*/
 
 
 .main button{

@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('input').addEventListener('keyup', handleKeyUp);
+    document.querySelector('.btns').addEventListener('click', handleButtonClick);
+});
+
 function handleKeyUp(event) {
     if (event.keyCode === 13) {
         var element = document.getElementById("input");
@@ -5,6 +10,7 @@ function handleKeyUp(event) {
         element.value = result;
     }
 }
+
 function handleButtonClick(event) {
     var target = event.target;
     var element = document.getElementById("input");

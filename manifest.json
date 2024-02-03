@@ -1,20 +1,18 @@
 {
     "manifest_version": 2,
-    "name": "Browser",
-    "description": "This extension will let you calculate",
-    "version": "1",
-    "author": "Khadeer",
-    "permissions": [
-        "activeTab",
-        "http://*.google.com/"
-    ],
+    "name": "Calculator Extension",
+    "version": "1.0",
+    "description": "A simple calculator extension.",
     "browser_action": {
-        "default_popup": "index.html",
-        "default_title": "Calculator"
+      "default_popup": "index.html",
+      "default_icon": "imgs/logo.png"
     },
+    "permissions": [],
     "icons": {
-        "16": "imgs/logo.png",
-        "48": "imgs/logo.png",
-        "128": "imgs/logo.png"
-    }
-}
+      "16": "imgs/logo.png",
+      "48": "imgs/logo.png",
+      "128": "imgs/logo.png"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  }
+  
